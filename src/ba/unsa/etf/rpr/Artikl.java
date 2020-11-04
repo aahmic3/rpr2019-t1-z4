@@ -4,26 +4,24 @@ public class Artikl {
     private String naziv;
     private int cijena;
     private String kod;
-    Artikl(String naziv, int cijena, String kod)
-    {
-        this.naziv=naziv;
-        this.cijena=cijena;
-        this.kod=kod;
+
+    Artikl(String naziv, int cijena, String kod) {
+        this.naziv = naziv;
+        this.cijena = cijena;
+        this.kod = kod;
     }
-    public String getNaziv()
-    {
+    public String getNaziv() {
         return naziv;
     }
-    public int getCijena()
-    {
+    public int getCijena() {
         return cijena;
     }
-    public String getKod()
-    {
+    public String getKod() {
         return kod;
     }
-    public void setCijena(int cijena) {
-        this.cijena=cijena;
+    public void ispisiArtikal()
+    {
+        System.out.println(naziv + " " + cijena + " " + kod);
     }
 }
 

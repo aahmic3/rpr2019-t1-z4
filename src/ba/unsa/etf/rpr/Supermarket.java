@@ -5,7 +5,7 @@ public class Supermarket {
 
     public boolean dodajArtikl(Artikl artikl)
     {
-        for(int i=0; i<50; i++)
+        for(int i=0; i<10000; i++)
         {
             if(artiklisupermarketa[i]==null)
             {
@@ -14,6 +14,30 @@ public class Supermarket {
             }
         }
             return false;
+    }
+    public Artikl[] getArtikli()
+    {
+        return artiklisupermarketa;
+    }
+    public void  ispisArtikala() {
+        for (int i = 0; i < 1000; i++)
+        {
+            if(artiklisupermarketa[i]!=null) {
+                artiklisupermarketa[i].ispisiArtikal();
+            }
+        }
+    }
+    public Artikl izbaciArtiklSaKodom(String kod) {
+        Artikl pomocniartikl;
+        for (int i = 0; i < 50; i++) {
+            if (artiklisupermarketa[i].getKod() == kod) {
+                while (artiklisupermarketa[i] != null) {
+                    artiklisupermarketa[i] = artiklisupermarketa[i + 1];
+                    i++;
+                }
+            }
+        }
+        return artiklisupermarketa[0];
     }
 
 }
