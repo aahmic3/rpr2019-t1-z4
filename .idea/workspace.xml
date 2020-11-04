@@ -19,10 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b174bc2-f904-486e-983a-d5aa9cd4ee9c" name="Default Changelist" comment="INITIAL COMMIT">
+    <list default="true" id="9b174bc2-f904-486e-983a-d5aa9cd4ee9c" name="Default Changelist" comment="Dodane sve potrebne metode navedene u mainu, potrebna unapredjenja">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Artikl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Artikl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Korpa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Korpa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +92,7 @@
       <workItem from="1604080359797" duration="647000" />
       <workItem from="1604081047639" duration="2974000" />
       <workItem from="1604476562788" duration="637000" />
-      <workItem from="1604477301675" duration="2601000" />
+      <workItem from="1604477301675" duration="3920000" />
     </task>
     <task id="LOCAL-00001" summary="INITIAL COMMIT">
       <created>1604084004553</created>
@@ -98,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604084004553</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dodane sve potrebne metode navedene u mainu, potrebna unapredjenja">
+      <created>1604479994673</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604479994673</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Dodane sve potrebne metode navedene u mainu, potrebna unapredjenja">
+      <created>1604480000507</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604480000507</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,36 +135,53 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="INITIAL COMMIT" />
-    <option name="LAST_COMMIT_MESSAGE" value="INITIAL COMMIT" />
+    <MESSAGE value="Dodane sve potrebne metode navedene u mainu, potrebna unapredjenja" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodane sve potrebne metode navedene u mainu, potrebna unapredjenja" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1604479351329">
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1604481137437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604479351329" />
-    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1604479351329">
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604481137437" />
+    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1604481137436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604479351329" />
-    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1604479351329">
+    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604481137436" />
+    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1604481137436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604479351329" />
-    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1604479351329">
+    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604481137436" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1604481137437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604479351329" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604481137437" />
+    <state width="1860" height="344" key="GridCell.Tab.1.bottom" timestamp="1604481072782">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604481072782" />
+    <state width="1860" height="344" key="GridCell.Tab.1.center" timestamp="1604481072781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604481072781" />
+    <state width="1860" height="344" key="GridCell.Tab.1.left" timestamp="1604481072781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604481072781" />
+    <state width="1860" height="344" key="GridCell.Tab.1.right" timestamp="1604481072781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604481072781" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1604080645863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604080645863" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604084017730">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604480087580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604084017730" />
-    <state x="760" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604083961267">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604480087580" />
+    <state x="760" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604480060012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="760" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604083961267" />
+    <state x="760" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604480060012" />
   </component>
 </project>

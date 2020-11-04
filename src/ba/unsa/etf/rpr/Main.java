@@ -29,13 +29,11 @@ public class Main {
         supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "19"));
         supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "20"));
     }
-
     public static void ispisArtikala(Artikl[] artikli){
         for (Artikl a : artikli) {
             if(a != null) System.out.println("Naziv: " + a.getNaziv() + ", Kod: " + a.getKod() + ", Cijena: " + a.getCijena() + " KM");
         }
     }
-
     public static void main(String[] args) {
 //      Kreirati program koji modelira supermarket. Kupac ima korpu koja moze sadrzavati maksimalno 50 artikala.
 //      Supermarket maksimalno sadrzi 1000 artikala. Artikl je odredjen svojim nazivom, cijenom i kodom.
@@ -50,6 +48,7 @@ public class Main {
 //      unesena negativna, odnosno dovoljna suma novca.
 
         unosArtikalaUMarket();
+        supermarket.ispisArtikala();
         for(;;){
             System.out.print("0 - odustani\n1 - dodaj u korpu\n2 - izbaci iz korpe\n3 - checkout\nUnesite opciju: ");
             Scanner scanner = new Scanner(System.in);

@@ -28,16 +28,15 @@ public class Supermarket {
         }
     }
     public Artikl izbaciArtiklSaKodom(String kod) {
-        Artikl pomocniartikl;
+        Artikl pomocniartikl=null;
         for (int i = 0; i < 50; i++) {
-            if (artiklisupermarketa[i].getKod() == kod) {
-                while (artiklisupermarketa[i] != null) {
-                    artiklisupermarketa[i] = artiklisupermarketa[i + 1];
-                    i++;
-                }
+            if (artiklisupermarketa[i].getKod().equals(kod)) {
+                pomocniartikl=artiklisupermarketa[i];
+                artiklisupermarketa[i]=null;
+                break;
             }
         }
-        return artiklisupermarketa[0];
+        return pomocniartikl;
     }
 
 }

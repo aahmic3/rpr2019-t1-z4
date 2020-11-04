@@ -12,16 +12,15 @@ public class Korpa {
         return false;
     }
     public Artikl izbaciArtiklSaKodom(String kod) {
-        Artikl pomocniartikl;
+        Artikl pomocniartikl=null;
         for (int i = 0; i < 50; i++) {
-            if (korpa[i].getKod() == kod) {
-                while (korpa[i] != null) {
-                    korpa[i] = korpa[i + 1];
-                    i++;
-                }
+            if (korpa[i].getKod().equals(kod)) {
+               pomocniartikl=korpa[i];
+               korpa[i]=null;
+               break;
             }
         }
-        return korpa[0];
+        return pomocniartikl;
     }
     public Artikl[] getArtikli() {
         return korpa;
